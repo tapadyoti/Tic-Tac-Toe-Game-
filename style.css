@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color:#0093E9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+.box{
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 8px;
+    border: none;
+    font-size: 3rem;
+    color: #050505;
+    text-shadow: 2px 0px 7px rgb(254, 0, 229);
+    background-color: rgb(248, 241, 241);
+    box-shadow: 3px 3px 5px #0076e5;
+    
+    
+}
+#resetBtn{
+    font-size: .9rem;
+    font-weight: 500;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid rgb(120, 34, 232);
+    background-color: 
+    #000000  ;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgb(12, 90, 208);
+   
+
+}
+#resetBtn:hover{
+    background-color: rgb(22, 21, 22);
+    transition: .3s;
+    cursor: pointer;
+}
+.msg{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0px 5px 10px rgb(12, 90, 208);
+
+}
+#ng-btn{
+    font-size: .8rem;
+    font-weight: 500;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    border: 1px solid rgb(34, 179, 232);
+    background-color: 
+    #070707  ;
+    color: rgb(253, 249, 249);
+   
+}
+.winnerMsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.hide{
+    display: none;
+}
+.darkmode{
+    background-color: #000000;
+}
+#modeBtn{
+    font-size: .9rem;
+    font-weight: 500;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid rgb(120, 34, 232);
+    background-color: 
+    #000000  ;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgb(12, 90, 208);
+   
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width: 357px){
+
+    .game{
+        height: 50vmin;
+        width: 50vmin;
+    }
+   .box {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 1.3rem;
+   } 
+   #resetBtn{
+    width: 80px;
+    font-size: .6rem;
+   }
+   #modeBtn{
+    width: 80px;
+    font-size: .6rem;
+   }
+
+   .msg{
+    font-size: .8rem;
+   }
+   #ng-btn{
+    font-size: .6rem;
+   }
+
+}
