@@ -5,6 +5,7 @@
         width: 50vmin;
     }
    .box {
+    text-align: center;
     height: 15vmin;
     width: 15vmin;
     font-size: 1.3rem;
